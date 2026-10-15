@@ -1,0 +1,23 @@
+{
+  "company": "Genesis",
+  "role": "Web Development",
+  "live_url": "https://genesis-alpha-lake.vercel.app",
+  "repo_url": "https://github.com/yash560/genesis-assignment",
+  "git_ssh": "git@github-yash560:yash560/genesis-assignment.git",
+  "google_form_url": "https://forms.gle/M1EikbuEbGmLUceWA",
+  "summary": "Genesis HealthOS is an enterprise-grade direct-to-consumer and clinical genomic health platform engineered for Genesis (incubated by Harvard & Stanford researchers). Built with Next.js 15 App Router, React 19, TypeScript, and Tailwind CSS v4, it features an interactive Skingene™ dermal longevity simulator modeling UV, glycation, sleep, and pollution modulation across curated molecular SNPs (MMP1, ELN, MC1R, SOD2). Solves Genesis's core web engineering directive by providing a production-ready WordPress/WooCommerce plugin (genesis-health-sync.php) with HMAC-SHA256 cryptographic webhook dispatching, automated saliva barcode allocation (GEN-XXXX-XX), and bidirectional lab report synchronization. Includes an end-to-end 6-stage swab-to-sequence tracking telemetry HUD with spectrophotometry A260/A280 DNA purity quality gates, an interactive in-browser Swagger API playground (/api-docs), and an automated test suite passing with 100% success.",
+  "tech_stack": [
+    "Next.js 15 App Router",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "Headless WordPress & WooCommerce Integration",
+    "HMAC-SHA256 Cryptographic Webhooks",
+    "Node.js Microservices (/api/v1)",
+    "Illumina NovaSeq NGS Telemetry",
+    "Deterministic Test Suite",
+    "Vercel Edge Platform"
+  ],
+  "submitted_at": "2026-10-15T03:31:00.000Z",
+  "status": "completed"
+}
