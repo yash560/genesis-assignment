@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #030712;
+    --foreground: #f9fafb;
+    --primary: #14b8a6;
+    --primary-foreground: #042f2e;
+    --muted: #111827;
+    --muted-foreground: #9ca3af;
+    --border: #1f2937;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Biological Grid and Glows */
+.bio-grid {
+  background-image: radial-gradient(rgba(20, 184, 166, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.glow-teal {
+  box-shadow: 0 0 35px -5px rgba(20, 184, 166, 0.25);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 35px -5px rgba(6, 182, 212, 0.25);
+}
+
+.glow-indigo {
+  box-shadow: 0 0 35px -5px rgba(99, 102, 241, 0.25);
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
