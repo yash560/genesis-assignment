@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Dna, ShieldCheck, HeartPulse, Sparkles, ExternalLink } from "lucide-react";
+import { Dna, ShieldCheck, HeartPulse, Sparkles, ExternalLink, Zap } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -97,27 +97,27 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Tier 4: Developer & Recruiter Contact */}
+          {/* Tier 4: Architecture & Provenance */}
           <div>
-            <h4 className="text-white font-semibold mb-3 tracking-wide text-xs uppercase font-mono text-indigo-400">
-              Candidate & Technical Contact
+            <h4 className="text-white font-semibold mb-3 tracking-wide text-xs uppercase font-mono text-teal-400">
+              Architecture
             </h4>
-            <p className="text-xs text-gray-400 mb-2">
-              Architected by <span className="text-white font-medium">Yash Jain</span> for the Genesis Web Development Engineering Selection.
-            </p>
-            <div className="space-y-1.5 font-mono text-[11px]">
-              <div className="text-gray-300">Email: yash560@gmail.com</div>
-              <div className="text-gray-300">Phone: +91 93010 19623</div>
-              <div className="text-gray-300">GitHub: github.com/yash560</div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 font-medium text-xs mb-3">
+              <span>⚡ Powered by TheWebVale</span>
             </div>
-            <div className="pt-3">
-              <Link
-                href="/recruiter"
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-900 hover:bg-gray-800 text-teal-300 border border-teal-500/30 text-xs font-mono transition-colors"
+            <p className="text-xs text-gray-400 leading-relaxed mb-3">
+              Engineered with clean-room Next.js 15 standards, HIPAA-ready architecture, and real-time spectrophotometry verification.
+            </p>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://thewebvale.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-teal-400 hover:text-teal-300 transition-colors flex items-center gap-1"
               >
-                <span>View Full Recruiter Dossier</span>
+                <span>TheWebVale Platform</span>
                 <ExternalLink className="w-3 h-3" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -127,12 +127,12 @@ export default function Footer() {
           <div>
             © {new Date().getFullYear()} Genesis Biogen / Genesis HealthOS. All genomic telemetry simulated for technical demonstration.
           </div>
-          <div className="flex items-center gap-4 font-mono">
+          <div className="flex items-center gap-3 font-mono">
+            <span className="text-teal-400 font-medium">⚡ Powered by TheWebVale</span>
+            <span>•</span>
             <span>Next.js 15 App Router</span>
             <span>•</span>
             <span>React 19</span>
-            <span>•</span>
-            <span>Tailwind CSS v4</span>
             <span>•</span>
             <span>Vercel Edge</span>
           </div>

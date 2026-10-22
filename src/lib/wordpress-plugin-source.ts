@@ -4,7 +4,7 @@ export const WORDPRESS_PLUGIN_SOURCE = `<?php
  * Plugin URI: https://github.com/yash560/genesis-assignment
  * Description: Enterprise bidirectional synchronization plugin between Genesis WordPress/WooCommerce and Genesis HealthOS Genomic Engine. Manages automated kit barcode allocation, cryptographic webhook dispatch, patient SSO bridge, and clinical lab report ingestion.
  * Version: 1.4.0
- * Author: Yash Jain (TheWebVale / Genesis Web Development)
+ * Author: TheWebVale Architecture Team
  * Author URI: https://thewebvale.com
  * License: GPL v2 or later
  * Text Domain: genesis-health-sync

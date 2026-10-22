@@ -62,7 +62,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1 bg-gray-900/60 p-1.5 rounded-xl border border-gray-800/60">
+        <nav className="hidden xl:flex items-center gap-1 bg-gray-900/60 p-1.5 rounded-xl border border-gray-800/60">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
@@ -97,7 +97,7 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-800"
+          className="xl:hidden p-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-800"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
@@ -105,7 +105,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileOpen && (
-        <div className="md:hidden border-b border-gray-800 bg-gray-950 px-4 pt-2 pb-4 space-y-1">
+        <div className="xl:hidden border-b border-gray-800 bg-gray-950 px-4 pt-2 pb-4 space-y-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
